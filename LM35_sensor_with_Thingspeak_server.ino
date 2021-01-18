@@ -5,11 +5,11 @@ WiFiClient client;
 int val;
 float mv,farh,cel;
 
-const char* ssid="Nokia 8.1";           /* Here need give your own wifi name */
-const char* password="12345678";        /* Give your own wifi password */
+const char* ssid="";           /* Here need give your own wifi name */
+const char* password="";        /* Give your own wifi password */
 
-unsigned long myChannelNumber = 1281181;      /* Thingspeak Channel ID */
-String APIkey = "VRSAFJ4VDLGTCHYI";           /* API key of your channel */
+unsigned long myChannelNumber = ;      /* Thingspeak Channel ID */
+String APIkey = "";           /* API key of your channel */
 const char* server = "api.thingspeak.com";
 
 void setup()
